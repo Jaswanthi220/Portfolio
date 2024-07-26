@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JASWANTHI - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" ><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" ><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects" ><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#resume" ><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#skills" ><i class="fas fa-cogs"></i> Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home-section">
+            <div class="home-content">
+                <div class="intro">
+                    <h1>Hi There! <span class="wave">👋</span></h1>
+                    <h2>I'M <span class="name">JASWANTHI MANI GAYATHRI</span></h2>
+                    <h3 id="rotating-title">AI & Machine Learning</h3>
+                </div>
+                <div class="intro-image">
+                    <img src="Hii.png" alt="Static Picture">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section" style="display: none;">
+            <div class="about-content">
+                <div class="about-intro">
+                    <h2>Know Who I'M</h2>
+                    <p>Hi Everyone, I am <span class="highlight">JASWANTHI</span> from <span class="highlight">Andhra Pradesh, India.</span></p>
+                    <p>I am currently pursuing my final year of Engineering in the department of Information Technology at Shri Vishnu Women's College, Bhimavaram.</p>
+                    <p>Apart from coding, some other activities that I love to do!</p>
+                    <ul>
+                        <li>Travelling</li>
+                        <li>Watching Movies</li>
+                        <li>Dancing</li>
+                    </ul>
+                    <p class="quote">"Strive to build things that make a difference!" -JASWANTHI</p>
+                    <div class="content-with-me">
+                        <h2>Content with Me</h2>
+                        <p>Connect with me on <a href="https://www.linkedin.com/in/jaswanthi-mani-gayathri/" target="_blank">LinkedIn</a></p>
+                        <p>Email me at <a href="mailto:jaswathigayathri@gmail.com">jaswathigayathri@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="Screenshot 2024-07-23 202635.png" alt="About Image">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section" style="display: none;">
+            <h2>Professional <span class="highlight">Skillset</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="iconC.png" alt="C">
+                    <p>C</p>
+                </div>
+                <div class="skill-card">
+                    <img src="icon-Java.png" alt="Java">
+                    <p>Java</p>
+                </div>
+                <div class="skill-card">
+                    <img src="icon-Python.png" alt="Python">
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <img src="icon-React.png" alt="React">
+                    <p>React</p>
+                </div>
+                <div class="skill-card">
+                    <img src="Nodejs.png" alt="Node.js">
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-card">
+                    <img src="Mongodb.png" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <img src="javascript.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <img src="Booststrap.png" alt="Booststrap">
+                    <p>Booststrap</p>
+                </div>
+                <div class="skill-card">
+                    <img src="sql.png" alt="SQL">
+                    <p>SQL</p>
+                </div>
+                <div class="skill-card">
+                    <img src="Open_CV.png" alt="Open_CV">
+                    <p>Open_CV</p>
+                </div>
+            </div>
+            <h2>Tools I <span class="highlight">Use</span></h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <img src="figma.png" alt="Figma">
+                    <p>Figma</p>
+                </div>
+                <div class="tool-card">
+                    <img src="vs_code.png" alt="VS Code">
+                    <p>VS Code</p>
+                </div>
+                <div class="tool-card">
+                    <img src="Github.png" alt="GitHub">
+                    <p>GitHub</p>
+                </div>
+                <div class="tool-card">
+                    <img src="Eclipse.png" alt="Eclipse">
+                    <p>Eclipse</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="days-code" class="days-code-section" style="display: none;">
+            <h2>Days I <span class="highlight">Code</span></h2>
+            <div class="code-grid">
+                <img src="Code.png" alt="Days I Code">
+            </div>
+        </section>
+        
+        <section id="resume" class="resume-section" style="display: none;">
+            <div class="resume-content">
+                <h2>My <span class="highlight">Resume</span></h2>
+                <embed src="Jaswanthi_resume.pdf" type="application/pdf" width="100%" height="500px" />
+                <button onclick="downloadResume()">Download Resume</button>
+            </div>
+        </section>
+        
+        <section id="projects" class="projects-section" style="display: none;">
+            <div class="projects-container">
+                <div class="project-row">
+                    <div class="project">
+                        <img src="Budget_prediction.png" alt="Project 1">
+                        <h3>Budget Prediction Model</h3>
+                        <p>This project focuses on developing a budget prediction model using web scraping, API validation, and machine learning techniques. The primary tools and technologies used in this project include Selenium for web scraping, Postman for REST API validation, and Azure Machine Learning for building and deploying the prediction model.</p>
+                        <a href="https://github.com/Jaswanthi220/Project-Budget-Prediction-Model" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project">
+                        <img src="vote.png" alt="Project 2">
+                        <h3>Online Voting System</h3>
+                        <p>Designed a robust online voting system catering to college students, employing React.js for frontend development, Express.js for backend functionalities, and MySQL for database management, facilitated through a XAMPP server. Implemented user authentication via registration numbers, enabling students to either vote for candidates or self-nominate.</p>
+                        <a href="https://github.com/Jaswanthi220/Online_voting_System" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project">
+                        <img src="NUM_pla.png" alt="Project 3">
+                        <h3>Number Plate Detection</h3>
+                        <p>This project is a web application developed using Flask and OpenCV to detect and recognize vehicle number plates from uploaded images. The system processes an uploaded image to identify the license plate and then uses Optical Character Recognition (OCR) to extract the text.</p>
+                        <a href="https://github.com/Jaswanthi220/Number-plate-Detection-" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-row">
+                    <div class="project">
+                        <img src="fitness_trackker.png" alt="Project 4">
+                        <h3>Mental Health Fitness Tracker</h3>
+                        <p>This project aims to develop a Mental Health Fitness Tracker application to promote mental well-being. The application allows users to track their mental health status, set wellness goals, and access resources such as meditation exercises and mental health tips.</p>
+                        <a href="https://github.com/Jaswanthi220/Mental-Health-Fitness-Tracker" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project">
+                        <img src="youtube_scrap.png" alt="Project 5">
+                        <h3>Youtube_Scraping</h3>
+                        <p>This project is a web scraping tool that extracts titles and links of trending videos from YouTube's trending page using Selenium and stores the data in a CSV file.</p>
+                        <a href="https://github.com/Jaswanthi220/Youtube_Scraping" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project">
+                        <img src="browser.png" alt="Project 6">
+                        <h3>Personal_Browser</h3>
+                        <p>My Cool Browser is a simple web browser built using Python and PyQt5. This project demonstrates how to create a basic web browser with navigation functionalities such as back, forward, reload, and home buttons, as well as a URL bar for navigating to different websites.</p>
+                        <a href="https://github.com/Jaswanthi220/Personlized_browser" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 JASWANTHI - All Rights Reserved.</p>
+    </footer>
+
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
